@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #aaa8fd; 
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgb(211, 192, 214);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4caf50; /* Green border */
+}
+
+h1 {
+    text-align: center;
+    color: #6a0dad; /* Purple color for headings */
+}
+
+input {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    margin-bottom: 20px;
+    border: 2px solid #4caf50; /* Green border for input */
+    border-radius: 5px;
+    font-size: 16px; /* Increased font size */
+}
+
+input:focus {
+    border-color: #6a0dad; /* Purple border on focus */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Merge table borders */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 10px; /* Increased padding */
+    text-align: left; /* Left text alignment */
+}
+
+th {
+    background-color: #4caf50; /* Green background for header */
+    color: white; /* White text for header */
+}
+
+td {
+    background-color: #f9f9f9; /* Light gray background for table cells */
+}
+
+tr:hover {
+    background-color: #d3d3d3; /* Light gray on row hover */
+}
+
+/* Optional: Zebra striping for table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light background for even rows */
+}
